@@ -1,0 +1,15 @@
+{
+  "schema_status": "illustrative_not_final",
+  "record_id": "synthetic-day-001",
+  "subject_type": "synthetic",
+  "is_simulated": true,
+  "timezone": "Asia/Seoul",
+  "photos": [
+    {
+      "photo_id": "synthetic-photo-001",
+      "captured_at": "2026-10-12T10:00:00+09:00",
+      "file_reference": "placeholder-not-an-existing-file.jpg"
+    }
+  ],
+  "heart_rate_samples": []
+}

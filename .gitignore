@@ -1,0 +1,54 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.yaml
+application-local.properties
+*.pem
+*.key
+
+# Java
+.gradle/
+**/build/
+**/target/
+*.class
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Frontend
+node_modules/
+dist/
+.next/
+coverage/
+
+# Model weights and local datasets
+models/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.gguf
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+uploads/
+
+# Editors and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+*.log
